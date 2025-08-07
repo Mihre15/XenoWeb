@@ -16,7 +16,7 @@ a {
 
 a:hover {
     text-decoration: none;
-    color: #138f82
+    color: #007BFF 
 }
 
 a:focus {
@@ -163,7 +163,9 @@ textarea.form-control {
 .mr-15 {
     margin-right: 15px
 }
-
+.bg-color-007BFF{
+background-color: #007BFF;
+}
 .bg-color-f3f9f8 {
     background-color: #f3f9f8
 }
@@ -188,10 +190,10 @@ textarea.form-control {
     align-items: center;
     column-gap: 10px;
     padding: 12px 30px;
-    background-color: #138f82;
+    background-color: #007BFF;
     border-radius: 4px 4px 40px 4px;
     font-weight: 600;
-    border: 1px solid #138f82
+    border: 1px solid #007BFF
 }
 
 .default-btn i {
@@ -407,7 +409,7 @@ textarea.form-control {
 .desktop-nav .navbar .navbar-nav .nav-item a:hover,
 .desktop-nav .navbar .navbar-nav .nav-item a:focus,
 .desktop-nav .navbar .navbar-nav .nav-item a.active {
-    color: #138f82
+    color: #007BFF 
 }
 
 .desktop-nav .navbar .navbar-nav .nav-item a i {
@@ -428,7 +430,7 @@ textarea.form-control {
 .desktop-nav .navbar .navbar-nav .nav-item:hover a,
 .desktop-nav .navbar .navbar-nav .nav-item:focus a,
 .desktop-nav .navbar .navbar-nav .nav-item.active a {
-    color: #138f82
+    color: #007BFF 
 }
 
 .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu {
@@ -481,7 +483,7 @@ textarea.form-control {
 .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:hover,
 .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:focus,
 .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li a.active {
-    color: #138f82
+    color: #007BFF 
 }
 
 .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu {
@@ -516,7 +518,7 @@ textarea.form-control {
 .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:hover,
 .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:focus,
 .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a.active {
-    color: #138f82
+    color: #007BFF 
 }
 
 .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu {
@@ -550,7 +552,7 @@ textarea.form-control {
 .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover,
 .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus,
 .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-    color: #138f82
+    color: #007BFF 
 }
 
 .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
@@ -567,7 +569,7 @@ textarea.form-control {
 .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover,
 .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus,
 .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-    color: #138f82
+    color: #007BFF 
 }
 
 .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
@@ -1149,7 +1151,7 @@ textarea.form-control {
 }
 
 .banner-content h1 span {
-    color: #138f82
+    color: #007BFF
 }
 
 .banner-content p {
@@ -1166,18 +1168,18 @@ textarea.form-control {
 }
 
 .banner-content .banner-btn .default-btn {
-    border: 1px solid #138f82
+    border: 1px solid #007BFF
 }
 
 .banner-content .banner-btn .default-btn.active {
-    border: 1px solid #138f82;
+    border: 1px solid #007BFF;
     background-color: rgba(0, 0, 0, 0);
-    color: #138f82;
+    color: #007BFF;
     margin-left: 30px
 }
 
 .banner-content .banner-btn .default-btn.active i {
-    color: #138f82 !important;
+    color: #007BFF !important;
     transition: all ease .5s
 }
 
@@ -1200,7 +1202,7 @@ textarea.form-control {
 }
 
 .banner-content.style-two .banner-btn .default-btn {
-    background-color: #138f82
+    background-color: #007BFF
 }
 
 .banner-content.style-two .banner-btn .default-btn.active {
@@ -1783,6 +1785,34 @@ textarea.form-control {
 .single-services-item-card:hover h3 a {
     color: #138f82
 }
+.service-slide{
+background: #f1f1f1;
+padding: 20px;
+border-radius: 8px;
+ box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100px;
+}
+.owl-nav{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+.owl-nav button{
+    background: #007BFF;
+    color: #007BFF;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50%;
+    pointer-events: all;
+    transition: background 0.3s;
+}
 
 .choose-us-content {
     margin-bottom: 30px
@@ -1832,13 +1862,13 @@ textarea.form-control {
     position: absolute;
     top: 11px;
     left: 20px;
-    color: #138f82;
+    color: #007BFF;
     font-size: 18px;
     transition: all ease .5s
 }
 
 .choose-us-content ul li:hover {
-    background-color: #138f82;
+    background-color: #007BFF;
     color: #fff
 }
 
@@ -2772,7 +2802,7 @@ textarea.form-control {
 
 .single-contact-info i {
     font-size: 60px;
-    color: #138f82;
+    color: #007BFF;
     line-height: 1;
     margin-bottom: 8px;
     display: block
@@ -3772,7 +3802,7 @@ textarea.form-control {
 }
 
 .preloader div {
-    background: rgb(19 143 130);
+    background: #007BFF;
     border-radius: 50%;
     width: 25px;
     height: 25px;
@@ -3813,7 +3843,7 @@ textarea.form-control {
     border-radius: 4px 4px 40px 4px;
     right: 3%;
     top: 87%;
-    background-color: #138f82;
+    background-color: #007BFF;
     z-index: 4;
     width: 40px;
     text-align: center;
@@ -3851,7 +3881,7 @@ textarea.form-control {
     width: 100%;
     height: 100%;
     z-index: -1;
-    background-color: #138f82;
+    background-color: #007BFF;
     opacity: 0;
     visibility: hidden;
     transition: .5s
@@ -3859,7 +3889,7 @@ textarea.form-control {
 
 .go-top:hover {
     color: #fff;
-    background-color: #138f82
+    background-color: #007BFF
 }
 
 .go-top:hover::before {
