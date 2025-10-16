@@ -74,13 +74,6 @@ img {
     max-width: 100%;
     height: auto
 }
-.log-img{
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-    display: block;
-}
-
 .form-control {
     height: 55px;
     color: #213438;
@@ -256,7 +249,7 @@ background-color: #007BFF;
 
 .section-title .top-title {
     font-size: 15px;
-    color: #138f82;
+    color: #007BFF;
     display: block;
     margin-bottom: 8px;
     font-weight: 500;
